@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 
 namespace PNRControlWebApp.Data
 {
-    public enum Natureza
+    public enum Categoria
     {
-        Isolada = 1,
-        Condominio = 2,
-        Apartamento = 3,
+        Representacao_Ocupado = 1,
+        Representacao_Desocupado = 2,
+        Funcional = 3,
+        Nao_Funcional = 4,
     }
 }
